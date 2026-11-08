@@ -1,44 +1,507 @@
 [
-	{
-		"name": "Cartago-Lunita",
-		"leaderName": "Joiko",
-		"adjective": ["Cartago-Lunita"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		"uniques": ["[+1000] [Gold] from each Trade Routes",
-		"[+1000]% Gold from Trade Routes",
-		],
-		
-		"startIntroPart1": "يموت",
-		"startIntroPart2": "سيكون الموت عزاءك",
-		
-		"declaringWar": "سوف نقتلك",
-		"attacked": "هل تريد أن تموت؟",
-		"defeated": "لست متفاجئاً بفوزك، لم أبدِ أي مقاومة.",
-		"introduction": "سنقتل كل هؤلاء الناس الملعونين.",
-		
-		"neutralHello": "الموت لشخصك",
-		"neutralLetsHearIt": ["الموت لشخصك"],
-		"neutralNo": ["تسقط بشدة"],
-		"neutralYes": ["يعجبك جيدا"],
-
-		"hateHello": "يموت لعنة",
-		"hateLetsHearIt": ["تضيع في الجحيم"],
-		"hateNo": ["اذهب إلى الجحيم"],
-		"hateYes": ["سنقبل وفقًا لشروطنا"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"uniques":["[+100]% Strength <when fighting units from a Civilization with more Cities than you>",  
-"[-80]% maintenance on road & railroads"],
-		
-		
-		
-		
-		"cities": ["Túnez","Kairuán","Mahdía","Susa","Bizerta","Palermo","Cagliari","Cartagena","Ibiza",
-			"Cádiz"]
-	}
+{
+  "name": "Avante Garde France",
+  "leaderName": "Le Patron",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [30, 30, 30],
+  "outerColor": [190, 35, 45],
+  "uniques": [
+    "Culture cost of adopting new Policies reduced by 10%",
+    "Great Writers are earned 25% faster"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Bordeaux", "Toulouse",
+    "Nice", "Nantes", "Lille", "Avignon", "Grenoble"
+  ],
+  "startIntroPart1": "The old order has collapsed. A new France rises under Le Patron.",
+  "startIntroPart2": "Art, innovation and national renewal will define this new republic."
+},
+{
+  "name": "The Acephale",
+  "leaderName": "Georges Bataille",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [20, 20, 20],
+  "outerColor": [120, 15, 25],
+  "uniques": [
+    "Earn [1] Culture for every [2] population in each city",
+    "Great Artists are earned 20% faster"
+  ],
+  "cities": [
+    "Paris", "Reims", "Dijon", "Clermont", "Rouen",
+    "Tours", "Orleans", "Chartres", "Amiens", "Bourges"
+  ],
+  "startIntroPart1": "The Acephale has emerged as a new political and cultural order.",
+  "startIntroPart2": "Its society is built around artistic experimentation, philosophy and collective identity."
+},
+{
+  "name": "French Rätterepublik",
+  "leaderName": "Marcel D'eat",
+  "style": "European",
+  "preferredVictoryType": "Scientific",
+  "innerColor": [40, 40, 40],
+  "outerColor": [180, 150, 65],
+  "uniques": [
+    "Workers build improvements 20% faster",
+    "Earn [1] Production in every city for every [5] population"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Strasbourg", "Metz", "Nancy",
+    "Mulhouse", "Roubaix", "Saint-Etienne", "Le Havre", "Calais"
+  ],
+  "startIntroPart1": "The French Rätterepublik has established a new industrial government.",
+  "startIntroPart2": "Its leaders seek to reorganize the economy and modernize the state."
+},
+{
+  "name": "French Commune",
+  "leaderName": "Andre Breton",
+  "style": "European",
+  "preferredVictoryType": "Cultural",
+  "innerColor": [190, 25, 35],
+  "outerColor": [245, 205, 70],
+  "uniques": [
+    "Cities connected to the capital produce [1] Culture",
+    "Earn [1] Culture from every [2] population in the capital"
+  ],
+  "cities": [
+    "Paris", "Marseille", "Lyon", "Toulouse", "Bordeaux",
+    "Nantes", "Grenoble", "Lille", "Rouen", "Montpellier"
+  ],
+  "startIntroPart1": "The French Commune has taken power.",
+  "startIntroPart2": "A new society emerges, built around communal organization and artistic experimentation."
+},
+{
+  "name": "French Network Association",
+  "leaderName": "Jean Genet",
+  "style": "European",
+  "preferredVictoryType": "Diplomatic",
+  "innerColor": [35, 35, 35],
+  "outerColor": [90, 110, 145],
+  "uniques": [
+    "Trade routes provide 25% more Gold",
+    "Gain [1] Gold from every [2] population in cities connected to the capital"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Nice", "Toulon",
+    "Bordeaux", "Nantes", "Rouen", "Calais", "Montpellier"
+  ],
+  "startIntroPart1": "The French Network Association has established its authority.",
+  "startIntroPart2": "Networks of trade, culture and diplomacy connect its territories."
+},
+{
+  "name": "French Fascist Union",
+  "leaderName": "Pierre Drieu la Rochelle",
+  "style": "European",
+  "preferredVictoryType": "Domination",
+  "innerColor": [35, 35, 35],
+  "outerColor": [100, 105, 110],
+  "uniques": [
+    "Military Units receive [10]% less damage from cities",
+    "Military Units cost 10% less Production"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Lille", "Reims",
+    "Dijon", "Nancy", "Bordeaux", "Rouen", "Toulouse"
+  ],
+  "startIntroPart1": "A new authoritarian government has taken control of France.",
+  "startIntroPart2": "The French Fascist Union seeks to consolidate its territory and establish a centralized state."
+},
+{
+  "name": "Union Française",
+  "leaderName": "Rene Binet",
+  "style": "European",
+  "preferredVictoryType": "Domination",
+  "innerColor": [35, 45, 65],
+  "outerColor": [210, 175, 65],
+  "uniques": [
+    "Military Units receive [15]% more experience from combat",
+    "Earn [1] Production from every [2] population in the capital"
+  ],
+  "cities": [
+    "Paris", "Lyon", "Marseille", "Bordeaux", "Toulouse",
+    "Nantes", "Lille", "Strasbourg", "Rouen", "Nice"
+  ],
+  "startIntroPart1": "The Union Française has emerged as a new French state.",
+  "startIntroPart2": "Its government seeks national consolidation, military organization and territorial expansion."
+},
+[
+  {
+    "name": "The Escadron Centre",
+    "leaderName": "Charles Nungesser",
+    "style": "European",
+    "preferredVictoryType": "Domination",
+    "innerColor": [35, 45, 65],
+    "outerColor": [190, 190, 200],
+    "uniques": [
+      "Military Units receive [15]% more experience from combat",
+      "New military units start with the [Drill I] promotion"
+    ],
+    "cities": [
+      "Paris", "Reims", "Nancy", "Dijon", "Lyon",
+      "Orleans", "Tours", "Rouen", "Amiens", "Chartres"
+    ],
+    "startIntroPart1": "Charles Nungesser commands the Escadron Centre.",
+    "startIntroPart2": "An aviation-inspired state, it seeks to establish its influence through military organization and technological progress.",
+    "intro": "Welcome. The Escadron Centre values courage, discipline and technical excellence. What business brings you before us?",
+    "neutralHello": "A new encounter. Let us see whether our interests can align.",
+    "hateHello": "Your actions have given us little reason to trust you. Speak quickly.",
+    "tradeRequest": "Our respective capabilities could complement one another. Shall we establish an agreement?",
+    "tradeAccepted": "Excellent. A practical agreement between capable nations.",
+    "tradeRefused": "Your proposal does not meet our requirements.",
+    "declaringWar": "Our patience has run out. The Escadron Centre is mobilizing.",
+    "attacked": "You have challenged our resolve. We will not surrender our position.",
+    "defeated": "Our formation has broken, but the courage of our pilots will be remembered."
+  },
+  {
+    "name": "Gaul Ur",
+    "leaderName": "Marc Aguier",
+    "style": "European",
+    "preferredVictoryType": "Domination",
+    "innerColor": [45, 75, 40],
+    "outerColor": [190, 155, 75],
+    "uniques": [
+      "Units receive [15]% defensive strength when fighting in friendly territory",
+      "Earn [1] Culture from every [2] population in the capital"
+    ],
+    "cities": [
+      "Lutetia", "Alesia", "Bibracte", "Massilia", "Lugdunum",
+      "Tolosa", "Burdigala", "Nemausus", "Avaricum", "Gergovia"
+    ],
+    "startIntroPart1": "Marc Aguier leads the new Gaul Ur.",
+    "startIntroPart2": "A revived Gaulish civilization rises, seeking to reconnect its people with an ancient heritage.",
+    "intro": "You stand before the revived people of Gaul. Our ancestors built a civilization of strength and independence. We intend to reclaim that legacy.",
+    "neutralHello": "Welcome, foreigner. What brings you to the lands of ancient Gaul?",
+    "hateHello": "Your presence is unwelcome. Have you forgotten the strength of our people?",
+    "tradeRequest": "Our peoples could benefit from an exchange of resources and knowledge.",
+    "tradeAccepted": "A worthy agreement. May our peoples prosper.",
+    "tradeRefused": "We have no interest in such an arrangement.",
+    "declaringWar": "Gaul will not bow to foreign pressure. Prepare yourselves.",
+    "attacked": "You have invaded our ancestral lands. Every hill and settlement will be defended.",
+    "defeated": "Our cities may fall, but the memory of Gaul will outlive every conqueror."
+  },
+  {
+    "name": "Confederation of Common Folk",
+    "leaderName": "Robert Dun",
+    "style": "European",
+    "preferredVictoryType": "Diplomatic",
+    "innerColor": [80, 115, 75],
+    "outerColor": [225, 210, 160],
+    "uniques": [
+      "Cities generate [1] Happiness for every [5] population",
+      "Internal trade routes provide 20% more Food"
+    ],
+    "cities": [
+      "Paris", "Lyon", "Marseille", "Bordeaux", "Nantes",
+      "Toulouse", "Rouen", "Limoges", "Dijon", "Grenoble"
+    ],
+    "startIntroPart1": "Robert Dun leads the Confederation of Common Folk.",
+    "startIntroPart2": "Local communities and regional assemblies form the foundation of this decentralized state.",
+    "intro": "Welcome, friend. The Confederation is built upon the cooperation of ordinary people and their communities. We are pleased to meet you.",
+    "neutralHello": "How fare your people? We hope our nations can maintain friendly relations.",
+    "hateHello": "Your government has shown little respect for the independence of our communities.",
+    "tradeRequest": "Let us establish an agreement that benefits our citizens and strengthens cooperation between our regions.",
+    "tradeAccepted": "An excellent decision. Cooperation is the foundation of prosperity.",
+    "tradeRefused": "Our assemblies have considered your proposal and decided against it.",
+    "declaringWar": "We have exhausted every peaceful avenue. The Confederation will now defend its communities.",
+    "attacked": "You threaten the homes and livelihoods of ordinary people. Our communities will stand together against you.",
+    "defeated": "Our government may have fallen, but the communities that created it will never forget their independence."
+  },
+  {
+    "name": "Geneva Government",
+    "leaderName": "Le Corbusier",
+    "style": "European",
+    "preferredVictoryType": "Scientific",
+    "innerColor": [185, 185, 180],
+    "outerColor": [65, 105, 145],
+    "uniques": [
+      "Construction of Buildings costs [10]% less Production",
+      "Earn [1] Science from every [2] population in cities"
+    ],
+    "cities": [
+      "Geneva", "Lausanne", "Paris", "Lyon", "Grenoble",
+      "Chambery", "Annecy", "Besancon", "Dijon", "Belfort"
+    ],
+    "startIntroPart1": "Le Corbusier presides over the Geneva Government.",
+    "startIntroPart2": "A state built around modernist architecture, urban planning and technological development emerges.",
+    "intro": "Welcome. We envision a rational and modern society, shaped by architecture, technology and scientific planning.",
+    "neutralHello": "Every meeting is an opportunity to exchange ideas. What would you like to discuss?",
+    "hateHello": "Your government appears resistant to progress. Explain your intentions.",
+    "tradeRequest": "We propose an exchange of resources and expertise that could advance both our nations.",
+    "tradeAccepted": "An excellent arrangement. Progress requires cooperation.",
+    "tradeRefused": "Your proposal does not fit our current development priorities.",
+    "declaringWar": "Our efforts at peaceful cooperation have failed. The government has authorized military action.",
+    "attacked": "You have disrupted our plans for progress. We will defend our cities and institutions.",
+    "defeated": "Our institutions have collapsed, but the principles of modern planning and scientific progress will endure."
+  },
+  {
+    "name": "Division: Charlemagne",
+    "leaderName": "Christian de la Mazière",
+    "style": "European",
+    "preferredVictoryType": "Domination",
+    "innerColor": [45, 45, 55],
+    "outerColor": [210, 175, 65],
+    "uniques": [
+      "Military Units receive [10]% more combat strength when attacking",
+      "New military units start with the [Shock I] promotion"
+    ],
+    "cities": [
+      "Paris", "Lyon", "Strasbourg", "Metz", "Reims",
+      "Aachen", "Dijon", "Nancy", "Orleans", "Tours"
+    ],
+    "startIntroPart1": "Christian de la Mazière leads Division: Charlemagne.",
+    "startIntroPart2": "The division has established its own state, invoking the legacy of Charlemagne and the old Frankish Empire.",
+    "intro": "You are received by Division: Charlemagne. We invoke the memory of an empire that once united much of Western Europe.",
+    "neutralHello": "Our representatives are ready to hear your proposals.",
+    "hateHello": "Your conduct has undermined the possibility of understanding between us.",
+    "tradeRequest": "An agreement between our governments could strengthen our respective positions.",
+    "tradeAccepted": "The agreement is accepted. We expect its terms to be respected.",
+    "tradeRefused": "Your proposal offers insufficient advantages.",
+    "declaringWar": "The time for negotiations has passed. Division: Charlemagne is entering the conflict.",
+    "attacked": "You have challenged our authority. We will resist your advance.",
+    "defeated": "The division has been defeated, and the imperial ambition has come to an end."
+  },
+  {
+    "name": "The Letterists",
+    "leaderName": "Isidore Isou",
+    "style": "European",
+    "preferredVictoryType": "Cultural",
+    "innerColor": [245, 225, 180],
+    "outerColor": [90, 45, 120],
+    "uniques": [
+      "Great Writers are earned 30% faster",
+      "Earn [1] Culture from every [2] population in each city"
+    ],
+    "cities": [
+      "Paris", "Marseille", "Lyon", "Nice", "Montpellier",
+      "Avignon", "Toulouse", "Bordeaux", "Nantes", "Grenoble"
+    ],
+    "startIntroPart1": "Isidore Isou leads the Letterist state.",
+    "startIntroPart2": "Language, artistic experimentation and radical cultural innovation define this new French successor state.",
+    "intro": "Welcome to the Letterist state! Language is not merely a means of communication; it is a material waiting to be transformed.",
+    "neutralHello": "Words, sounds and images surround us. What new ideas do you bring?",
+    "hateHello": "Your civilization seems content with repeating the same tired expressions. How disappointing.",
+    "tradeRequest": "Let us exchange ideas, artistic works and resources. Innovation flourishes through contact.",
+    "tradeAccepted": "Magnificent! Another opportunity for artistic experimentation.",
+    "tradeRefused": "Your offer lacks originality. We must decline.",
+    "declaringWar": "The old language of diplomacy has failed. A new chapter begins through conflict.",
+    "attacked": "You may destroy our buildings, but you cannot destroy the creative impulse of our people!",
+    "defeated": "The state has fallen, but language remains unfinished. New movements will emerge from its ruins."
+  },
+  {
+    "name": "X-Crise",
+    "leaderName": "Raymond Abellio",
+    "style": "European",
+    "preferredVictoryType": "Scientific",
+    "innerColor": [35, 35, 45],
+    "outerColor": [170, 155, 110],
+    "uniques": [
+      "Science cost of researching new Technologies reduced by 10%",
+      "Great Scientists are earned 25% faster"
+    ],
+    "cities": [
+      "Paris", "Lyon", "Strasbourg", "Nancy", "Grenoble",
+      "Toulouse", "Bordeaux", "Marseille", "Dijon", "Clermont"
+    ],
+    "startIntroPart1": "Raymond Abellio leads the X-Crise movement.",
+    "startIntroPart2": "A new intellectual and technocratic order emerges, seeking to transform society through science, philosophy and spiritual renewal.",
+    "intro": "Welcome. X-Crise seeks to understand the deeper structures governing civilization. Perhaps our nations can discover something greater through cooperation.",
+    "neutralHello": "The world is full of unanswered questions. What knowledge do you bring?",
+    "hateHello": "Your government appears unwilling to look beyond immediate material interests.",
+    "tradeRequest": "An exchange of scientific knowledge and resources could advance both our civilizations.",
+    "tradeAccepted": "An interesting proposition. May this agreement lead to greater understanding.",
+    "tradeRefused": "Your proposal offers little intellectual or practical value.",
+    "declaringWar": "The existing order has become an obstacle to our objectives. X-Crise will now pursue another course.",
+    "attacked": "You have mistaken our intellectual pursuits for weakness. We shall defend our institutions.",
+    "defeated": "The institutions have fallen, but knowledge cannot be erased. Another generation will continue the work."
+  },
+  {
+    "name": "The Mercenaries Revolt",
+    "leaderName": "Otto Skorzeny",
+    "style": "European",
+    "preferredVictoryType": "Domination",
+    "innerColor": [45, 45, 45],
+    "outerColor": [135, 115, 75],
+    "uniques": [
+      "Military Units receive [15]% more experience from combat",
+      "Military Units cost 10% less Production"
+    ],
+    "cities": [
+      "Paris", "Marseille", "Lyon", "Toulon", "Bordeaux",
+      "Nice", "Strasbourg", "Metz", "Calais", "Ajaccio"
+    ],
+    "startIntroPart1": "Otto Skorzeny has established the Mercenaries Revolt.",
+    "startIntroPart2": "A military organization built around contracted soldiers, veteran networks and armed political ambition establishes its own territory.",
+    "intro": "You have entered the territory of the Mercenaries Revolt. We understand contracts, military affairs and the price of loyalty. What do you want?",
+    "neutralHello": "Another government seeking an arrangement. Very well, let us hear it.",
+    "hateHello": "Your reputation precedes you. I suggest you choose your words carefully.",
+    "tradeRequest": "Our organization can offer military expertise and logistical assistance in exchange for suitable compensation.",
+    "tradeAccepted": "Agreed. A contract is only as good as the willingness of both parties to honor it.",
+    "tradeRefused": "The terms are unacceptable. We have no reason to proceed.",
+    "declaringWar": "The agreement is over. Our organization considers your government an adversary.",
+    "attacked": "You have challenged our territory. We will defend it.",
+    "defeated": "The organization has been dismantled. The men who served it will have to find another future."
+  },
+  {
+    "name": "The Domain of St. Francois",
+    "leaderName": "Thierry Maulnier",
+    "style": "European",
+    "preferredVictoryType": "Cultural",
+    "innerColor": [65, 55, 45],
+    "outerColor": [190, 165, 105],
+    "uniques": [
+      "Earn [1] Culture for every [3] population in each city",
+      "Great Writers are earned 20% faster"
+    ],
+    "cities": [
+      "Paris", "Chartres", "Avignon", "Tours", "Clermont",
+      "Reims", "Bourges", "Poitiers", "Angers", "Le Mans"
+    ],
+    "startIntroPart1": "Thierry Maulnier presides over the Domain of St. Francois.",
+    "startIntroPart2": "A traditionalist intellectual state emerges, seeking to preserve cultural continuity, spiritual identity and historical institutions.",
+    "intro": "Welcome to the Domain of St. Francois. Our civilization rests upon history, tradition and the preservation of its cultural inheritance.",
+    "neutralHello": "A civilized conversation is always welcome. What would you discuss?",
+    "hateHello": "Your government appears indifferent to the traditions that sustain civilization.",
+    "tradeRequest": "Let us establish an agreement that strengthens cultural and economic relations between our peoples.",
+    "tradeAccepted": "A respectable agreement. May our nations maintain a lasting relationship.",
+    "tradeRefused": "Your proposal does not adequately respect our interests.",
+    "declaringWar": "The time for diplomatic accommodation has passed. We shall defend our institutions.",
+    "attacked": "Our traditions and institutions will not disappear under foreign pressure.",
+    "defeated": "The political order has collapsed, but the memory of our civilization will remain."
+  },
+  {
+    "name": "Merovignia",
+    "leaderName": "Chyren I",
+    "style": "European",
+    "preferredVictoryType": "Domination",
+    "innerColor": [55, 45, 65],
+    "outerColor": [205, 170, 75],
+    "uniques": [
+      "Military Units receive [10]% more combat strength when fighting in friendly territory",
+      "Earn [1] Culture from every [3] population in the capital"
+    ],
+    "cities": [
+      "Paris", "Soissons", "Reims", "Metz", "Orleans",
+      "Tours", "Troyes", "Laon", "Autun", "Amiens"
+    ],
+    "startIntroPart1": "Chyren I has proclaimed the restoration of Merovignia.",
+    "startIntroPart2": "Invoking the legendary inheritance of the Merovingian dynasty, a new French kingdom emerges with ambitions of historical restoration.",
+    "intro": "You stand before Merovignia. Our dynasty claims an inheritance older than the kingdoms that surround us. What business brings you to our court?",
+    "neutralHello": "The royal court acknowledges your arrival. Speak freely.",
+    "hateHello": "Your government has shown little respect for the ancient rights of our kingdom.",
+    "tradeRequest": "A royal agreement between our nations could establish a lasting relationship of mutual advantage.",
+    "tradeAccepted": "The crown accepts. May this agreement endure through the generations.",
+    "tradeRefused": "The royal council finds your proposal unsuitable.",
+    "declaringWar": "Our kingdom will no longer tolerate interference in its rightful affairs. Merovignia declares war.",
+    "attacked": "The royal lands are under attack! Our kingdom shall defend its inheritance.",
+    "defeated": "The crown has fallen, but the legend of Merovignia will survive its final king."
+  },
+  {
+    "name": "Etat Dormologique",
+    "leaderName": "Paul Virilio",
+    "style": "European",
+    "preferredVictoryType": "Scientific",
+    "innerColor": [30, 40, 55],
+    "outerColor": [110, 145, 165],
+    "uniques": [
+      "Earn [1] Science for every [3] population in each city",
+      "Roads and Railroads are constructed 25% faster"
+    ],
+    "cities": [
+      "Paris", "Lyon", "Marseille", "Toulouse", "Grenoble",
+      "Bordeaux", "Strasbourg", "Lille", "Rouen", "Nantes"
+    ],
+    "startIntroPart1": "Paul Virilio establishes the Etat Dormologique.",
+    "startIntroPart2": "A state concerned with speed, technological transformation, infrastructure and the changing relationship between space and time emerges.",
+    "intro": "Welcome. In our state, speed determines the shape of civilization. Every technological development changes our understanding of space and time.",
+    "neutralHello": "Time is passing. Let us make this conversation productive.",
+    "hateHello": "Your government remains trapped in an outdated understanding of progress.",
+    "tradeRequest": "An agreement concerning transportation, infrastructure and technological exchange would benefit both nations.",
+    "tradeAccepted": "Excellent. Our cooperation will accelerate the development of both societies.",
+    "tradeRefused": "Your proposal does not account for the realities of technological progress.",
+    "declaringWar": "The balance of time and space has shifted. Our government has decided that conflict is unavoidable.",
+    "attacked": "You have disrupted our systems. We will reorganize and respond.",
+    "defeated": "The infrastructure has been destroyed, but the consequences of technological progress cannot be reversed."
+  },
+  {
+    "name": "Le Agencement",
+    "leaderName": "Gilles Deleuze",
+    "style": "European",
+    "preferredVictoryType": "Cultural",
+    "innerColor": [75, 45, 95],
+    "outerColor": [190, 100, 145],
+    "uniques": [
+      "Earn [1] Culture for every [2] population in each city",
+      "Great Artists are earned 25% faster"
+    ],
+    "cities": [
+      "Paris", "Lyon", "Marseille", "Bordeaux", "Nantes",
+      "Montpellier", "Toulouse", "Grenoble", "Nice", "Avignon"
+    ],
+    "startIntroPart1": "Gilles Deleuze leads Le Agencement.",
+    "startIntroPart2": "A decentralized philosophical and cultural order emerges, built around multiplicity, experimentation and constantly evolving social relationships.",
+    "intro": "Welcome. We do not believe that civilization must follow a single path. There are always new connections, new possibilities and new ways of thinking.",
+    "neutralHello": "What new connections might our encounter create?",
+    "hateHello": "Your government seems determined to impose a single order upon a world of multiplicities.",
+    "tradeRequest": "Let us establish new connections between our societies. Cooperation creates possibilities that neither nation could discover alone.",
+    "tradeAccepted": "Excellent. Another arrangement, another set of possibilities.",
+    "tradeRefused": "Your proposal is too restrictive. We prefer to remain open to other possibilities.",
+    "declaringWar": "The existing arrangement has broken down. A new relationship between our societies will now emerge.",
+    "attacked": "You attempt to impose your order upon us. We will not allow our possibilities to be extinguished.",
+    "defeated": "One arrangement has ended, but the process of becoming never truly stops."
+  },
+  {
+    "name": "The Situationist Internationale",
+    "leaderName": "Guy Debord",
+    "style": "European",
+    "preferredVictoryType": "Cultural",
+    "innerColor": [25, 25, 25],
+    "outerColor": [185, 35, 40],
+    "uniques": [
+      "Culture cost of adopting new Policies reduced by 15%",
+      "Great Artists are earned 25% faster"
+    ],
+    "cities": [
+      "Paris", "Strasbourg", "Lyon", "Marseille", "Nantes",
+      "Rouen", "Toulouse", "Bordeaux", "Grenoble", "Avignon"
+    ],
+    "startIntroPart1": "Guy Debord establishes the Situationist Internationale.",
+    "startIntroPart2": "A revolutionary cultural movement challenges conventional social organization, consumer society and the spectacle of modern life.",
+    "intro": "You have entered a world that refuses to accept everyday life as it is presented. The spectacle surrounds you. What will you do about it?",
+    "neutralHello": "Another diplomatic encounter. Perhaps something more interesting can emerge.",
+    "hateHello": "Your civilization has mistaken the spectacle for reality.",
+    "tradeRequest": "We propose an exchange that could connect our peoples beyond the limitations of conventional diplomacy.",
+    "tradeAccepted": "An arrangement has been reached. Let us see what new situations emerge.",
+    "tradeRefused": "Your proposal merely reproduces the same old arrangements. We decline.",
+    "declaringWar": "The spectacle cannot continue indefinitely. The existing order must be confronted.",
+    "attacked": "You seek to suppress a society that refuses to accept your manufactured reality.",
+    "defeated": "The movement has been scattered, but the critique of the spectacle remains."
+  },
+  {
+    "name": "The Ultra Letterists",
+    "leaderName": "Jean-Louis Brau",
+    "style": "European",
+    "preferredVictoryType": "Cultural",
+    "innerColor": [230, 215, 175],
+    "outerColor": [115, 45, 145],
+    "uniques": [
+      "Great Writers are earned 35% faster",
+      "Earn [1] Culture for every [2] population in each city"
+    ],
+    "cities": [
+      "Paris", "Marseille", "Lyon", "Nice", "Avignon",
+      "Montpellier", "Toulouse", "Bordeaux", "Nantes", "Grenoble"
+    ],
+    "startIntroPart1": "Jean-Louis Brau leads the Ultra Letterists.",
+    "startIntroPart2": "A radical cultural successor to Letterism emerges, seeking to transform language, artistic expression and the boundaries of creative experience.",
+    "intro": "Welcome to the Ultra Letterist state. Ordinary language is merely the beginning. We seek to transform the very foundations of artistic expression.",
+    "neutralHello": "A new encounter! What sounds, words and ideas do you bring?",
+    "hateHello": "Your civilization seems satisfied with repeating exhausted artistic conventions.",
+    "tradeRequest": "Let us exchange artistic works, publications and cultural resources. Creative experimentation knows no borders.",
+    "tradeAccepted": "Wonderful! Another opportunity to expand the boundaries of expression.",
+    "tradeRefused": "Your proposal offers nothing particularly innovative. We must decline.",
+    "declaringWar": "The old arrangement has become intolerable. The Ultra Letterists will no longer remain passive.",
+    "attacked": "You may silence our institutions, but you cannot silence the imagination of our people!",
+    "defeated": "Our state has disappeared, but the transformation of language and artistic expression will continue."
+  }
 ]
