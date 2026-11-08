@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Cartago-Lunita",
+		"leaderName": "Joiko",
+		"adjective": ["Cartago-Lunita"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Scientific",
+		"uniques": ["[+1000] [Gold] from each Trade Routes",
+		"[+1000]% Gold from Trade Routes",
+		],
+		
+		"startIntroPart1": "يموت",
+		"startIntroPart2": "سيكون الموت عزاءك",
+		
+		"declaringWar": "سوف نقتلك",
+		"attacked": "هل تريد أن تموت؟",
+		"defeated": "لست متفاجئاً بفوزك، لم أبدِ أي مقاومة.",
+		"introduction": "سنقتل كل هؤلاء الناس الملعونين.",
+		
+		"neutralHello": "الموت لشخصك",
+		"neutralLetsHearIt": ["الموت لشخصك"],
+		"neutralNo": ["تسقط بشدة"],
+		"neutralYes": ["يعجبك جيدا"],
+
+		"hateHello": "يموت لعنة",
+		"hateLetsHearIt": ["تضيع في الجحيم"],
+		"hateNo": ["اذهب إلى الجحيم"],
+		"hateYes": ["سنقبل وفقًا لشروطنا"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"uniques":["[+100]% Strength <when fighting units from a Civilization with more Cities than you>",  
+"[-80]% maintenance on road & railroads"],
+		
+		
+		
+		
+		"cities": ["Túnez","Kairuán","Mahdía","Susa","Bizerta","Palermo","Cagliari","Cartagena","Ibiza",
+			"Cádiz"]
+	}
+]

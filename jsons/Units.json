@@ -1,0 +1,129 @@
+[
+	{
+		"name": "Camel Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Cartago-Lunita",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"unitGraphics": "Camel Archer"
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Naresuan's Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "Cartago-Lunita",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+20]% Strength <vs [Mounted] units>",
+            "[+30]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "elephant"
+	},
+	{
+        "name": "War Elephant",
+		"unitType": "Archery",
+		"uniqueTo": "Cartago-Lunita",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus",
+            "[+30]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "elephant"
+	},
+	{
+	
+	    "name": "Trireme",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Cartago-Lunita",
+		"movement": 4,
+		"strength": 20,
+        "rangedStrength": 20,
+		"cost": 40,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+        "name": "African Forest Elephant",
+		"unitType": "Mounted",
+        "uniqueTo": "Cartago-Lunita",
+        "movement": 2,
+        "strength": 30,
+        "cost": 80,
+        "requiredTech": "Horseback Riding",
+        "obsoleteTech": "Chivalry",
+        "promotions": ["Great Generals II"],
+        "uniques": ["Can move after attacking", "No defensive terrain bonus",
+            "[+30]% Strength for enemy [Military] units in adjacent [All] tiles"],
+        "hurryCostModifier": 20,
+        "attackSound": "elephant"
+	},	
+	{
+		"name": "African Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Cartago-Lunita",
+		"replaces": "Warrior"
+		"movement": 3,
+		"strength": 3,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "African Spearman",
+		"unitType": "Sword",
+		"uniqueTo": "Cartago-Lunita",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 70,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sipahi",
+		"unitType": "Mounted",
+		"uniqueTo": "Cartago-Lunita",
+		"movement": 3,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"[+4] Sight"],
+		"promotions": ["[Sipahi] ability","Formation I"],
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "African Longswordsman",
+		"unitType": "Sword",
+		"uniqueTo": "Cartago-Lunita",
+		"replaces": "Longswordsman",
+		"movement": 3,
+		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	}
+]
